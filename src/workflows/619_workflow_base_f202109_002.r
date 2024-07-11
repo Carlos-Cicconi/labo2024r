@@ -444,7 +444,8 @@ wf_septiembre <- function( pnombrewf , metodo_dr)
 
 # llamo al workflow con future = 202109
 
-for (metodo_dr in c("ninguno", "rank_simple", "deflacion", "estandarizar")){
-  wf_septiembre(metodo_dr)}
+for (method in c("ninguno", "rank_simple", "deflacion", "estandarizar")){
+  wf_septiembre(metodo_dr = method)
+  }
   
 

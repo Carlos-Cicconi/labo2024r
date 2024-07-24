@@ -162,7 +162,7 @@ drift_estandarizar <- function(campos_drift) {
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 # Aqui comienza el programa
-cat( "1401_DR_corregir_drifting_004.r  START\n")
+cat( "1401_DR_corregir_drifting_004.R  START\n")
 action_inicializar() 
 
 # cargo el dataset donde voy a entrenar
@@ -249,4 +249,4 @@ GrabarOutput()
 #  archivos tiene a los files que debo verificar existen para no abortar
 
 action_finalizar( archivos = c("dataset.csv.gz","dataset_metadata.yml")) 
-cat( "1401_DR_corregir_drifting_004.r  END\n")
+cat( "1401_DR_corregir_drifting_004.R  END\n")

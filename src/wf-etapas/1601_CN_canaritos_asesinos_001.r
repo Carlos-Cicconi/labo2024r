@@ -179,7 +179,7 @@ CanaritosAsesinos <- function(
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 # Aqui empieza el programa
-cat( "z1601_CN_canaritos_asesinos.r  START\n")
+cat( "1601_CN_canaritos_asesinos_001.r  START\n")
 action_inicializar() 
 
 
@@ -227,7 +227,7 @@ setorderv(dataset, envg$PARAM$dataset_metadata$primarykey)
 
 #--------------------------------------------------------------------------
 # Elimino las variables que no son tan importantes en el dataset
-# with great power comes grest responsability
+# with great power comes great responsability
 
 envg$OUTPUT$CanaritosAsesinos$ncol_antes <- ncol(dataset)
 CanaritosAsesinos(
@@ -289,4 +289,4 @@ GrabarOutput()
 #  archivos tiene a los files que debo verificar existen para no abortar
 
 action_finalizar( archivos = c("dataset.csv.gz","dataset_metadata.yml")) 
-cat( "z1601_CN_canaritos_asesinos.r  END\n")
+cat( "1601_CN_canaritos_asesinos_001.r  END\n")
